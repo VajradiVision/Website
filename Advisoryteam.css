@@ -1,0 +1,62 @@
+/* Apply styles to the body element */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Soft rectangle background color for the whole page */
+  }
+  
+/* Apply styles to the container for centering */
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Stack the child elements vertically */
+  align-items: center;
+  padding-top: 20px; /* Add 30 pixels of padding on the top for the container */
+  padding-left: 30px; /* Add 30 pixels of padding on the left for the container */
+  padding-right: 30px; /* Add 30 pixels of padding on the right for the container */
+  background: url(Images/bckrng4.png);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+font-size: 4rem;
+font-family: 'Times New Roman', serif;
+background: #fff;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+display: center;
+margin-bottom: 20px; /* Default space between the top heading and bottom boxes */
+}
+
+.mainbox{
+    display: flex;
+  justify-content: space-between;
+  width: 100%; /* Make sure the boxes stretch to fill the width */
+  background: #fff; /* Background color for the left box */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Soft rectangle effect */
+  width: calc(75%); /* Adjust the width, considering the 20-pixel gap and the 200-pixel distance */
+  text-align: center; /* Center the text horizontally within the box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-bottom: 30px; /* Add margin at the bottom to separate it from the next element */
+}
+
+.mainbox img{
+    max-width: 100%; 
+    height: auto;
+    border: 0 none;
+    box-sizing: border-box;
+}

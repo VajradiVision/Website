@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+        <title>VAJRADIALTERNATE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="HOMECSS.css">
+    </head>
+    <body>
+        <div class="hero">
+                <nav>
+                   <img src="images/VISIONLOGOP2.png" class="logo"> 
+                   <ul>
+                        <li><a href = "index.html">Home</a></li>
+                        <!-- <li><a href = "ABOUTME.HTML">About Me</a> </li>  Implement Later-->
+                        <li><a href = "ADVISORYTEAM.HTML">Advisory Team</a></li>
+                        <li><a href = "TIMELINE.HTML">Timeline</a></li>
+                        <li><a href = "JOURNALS.HTML">Journals</a></li>
+                        <li><a href = "GOALS.HTML">Goals</a></li>
+                   </ul>
+                   <img src="images/QUESTIONMARK.png" class="userpic" onclick="toggleMenu()">
+
+                   <div class="sub-menu-wrap" id="subMenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="images/QUESTIONMARK.png">
+                            <h3> Useful items! </h3>
+                        </div>
+                        <hr>
+
+                        <a href="Papers.html" class = "sub-menu-link">
+                            <img src="images/PAPERSTACK.png">
+                            <p>Research Papers used</p>
+                            <span>></span>
+
+                        </a>
+
+                        <a href="Comments.html" class = "sub-menu-link">
+                            <img src="images/CHAT.png">
+                            <p>Comments</p>
+                            <span>></span>
+
+                        </a>
+
+                        <a href="DExplainations.html" class = "sub-menu-link">
+                            <img src="images/COMPUTER.png">
+                            <p>Deep Explainations</p>
+                            <span>></span>
+
+                        </a>
+
+                        <a href="Contact.html" class = "sub-menu-link">
+                            <img src="images/PROFILEFILLER.png">
+                            <p>Contact</p>
+                            <span>></span>
+
+                        </a>
+
+
+                    </div>
+                   </div>
+                   
+
+                </nav>
+                <div class="container">
+                    <h1>VAJRADI VISION</h1>
+                    <div class="bottom-boxes">
+                      <div class="left-box">
+                        <h2>What is Vajradi Vision?</h2>
+                        <p>------------------------------------------------------------------------------------------------</p>
+                        <p> Vajradi Vision is the name of this project. The name comes from the eyes of Buddha which are half-closed. The style is referred to as the “Adamantine View” or Vajradrsti in Sanskrit. Doing some wordplay, we get Vajradi. Because my project stems around computer vision, I thought adding Vision would be a nice touch. Combining the two, we get VajradiVision. </p> 
+                        <p>------------------------------------------------------------------------------------------------</p>
+                        <img src = "Images/BUDDHAEYES.png">
+                        <p>------------------------------------------------------------------------------------------------</p>
+                        <p> This project strives to create a relatively cheap way to gain high quality motion capture. The end product is a high quality moving 3D model of an object that can be viewed in solidworks or blender. This technology has massive applications in the health sector, especially in developing countries who can use these models to better convey potential operations to patients or gain advice from specialists in their field. </p>
+                        
+                      </div>
+                      <div class="right-box">
+                        <h2>SciFi Inspiration</h2>
+                        <p>------------------------------------------------------------------------------------------------</p>
+                        <p> Conceptually, this project is inspired from the holograms from Star Wars. Unfortunately, directly recreating the holograms from Star Wars is near impossible, but, we can get really close using some clever tricks with Neural Radiance Fields, XBox Kinetics, KineticFusion, and recent developments in AR or solidworks/blender. </p> 
+                        <p>------------------------------------------------------------------------------------------------</p>
+                        <img src="images/HOLOGRAM.png">
+                        <p>------------------------------------------------------------------------------------------------</p>
+                        <img src="images/HOLOGRAM2.PNG">
+                      </div>
+                    </div>
+                </div>  
+                <div class="container2">
+                <div class="Screenbottom-boxes">
+                    <div class = "Bleft-box"> 
+                    <h2> Key Custom Diagrams </h2>
+                    <p>------------------------------------------------------------------------------------------------</p>
+                    <img src="images/STEP1.png">
+                    <p>------------------------------------------------------------------------------------------------</p>
+                    <img src="images/STEP2.png">
+                    <p>------------------------------------------------------------------------------------------------</p>
+                    <img src="images/STEP3.png">
+                    <p>------------------------------------------------------------------------------------------------</p>
+                    <img src="images/STEP4.png">
+                    </div>
+                    <div class = "Bright-box">
+                    <h2> Key Academic Diagrams </h2>
+                    <p> These are reference diagrams from some of the academic papers I've used</p>
+                    <p>------------------------------------------------------------------------------------------------</p>
+                    <p> Example of using multiple kinetics around a person </p>
+                    <img src="images/TRISET.png">
+                    <p>------------------------------------------------------------------------------------------------</p>
+                    <p> Example of a rendering using Kinetic Fusion</p>
+                    <img src="images/EXRENDER.png"> 
+                    </div>
+                </div> 
+            </div>
+        </div>
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu(){
+            subMenu.classList.toggle("open-menu");
+        }
+
+    </script>
+    </body>
+</html>

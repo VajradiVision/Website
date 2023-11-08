@@ -16,13 +16,16 @@ body {
     padding-left: 30px; /* Add 30 pixels of padding on the left for the container */
     padding-right: 30px; /* Add 30 pixels of padding on the right for the container */
     background: url(Images/bckrng6.png);
-    background-repeat: no-repeat; 
+    /*background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    padding-bottom: 30vh;*/
+    background: #000;
     padding-bottom: 30vh;
     }
 form{
+    z-index: 5;
     background: #fff; 
     display: flex; 
     flex-direction: column;
@@ -32,12 +35,14 @@ form{
     border-radius: 10px;
 }
 form h3{
+    z-index: 5;
     color: #555;
     font-weight: 800;
     margin-bottom: 20px;
 }
 
 form input, form textarea{
+    z-index: 5;
     border: 0; 
     margin: 10px, 0; 
     padding: 20px;
@@ -47,6 +52,7 @@ form input, form textarea{
 }
 
 form button{
+    z-index: 5;
     padding: 15px; 
     background: #ff5361; 
     color: #fff; 

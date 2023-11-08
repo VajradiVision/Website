@@ -10,7 +10,7 @@ body {
 }
 
 /* Apply styles to the container for centering */
-.container {
+.container,.container2 {
   text-align: center;
   display: flex;
   flex-direction: column; /* Stack the child elements vertically */
@@ -18,11 +18,12 @@ body {
   padding-top: 40px; /* Add 30 pixels of padding on the top for the container */
   padding-left: 30px; /* Add 30 pixels of padding on the left for the container */
   padding-right: 30px; /* Add 30 pixels of padding on the right for the container */
-  background: url(Images/bckrng5.png);
+  background-color: #000;
+  /*background: url(Images/bckrng5.png);
   background-repeat: no-repeat; 
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed;*/
   }
 
 .container2 {
@@ -33,6 +34,7 @@ body {
   padding-top: 30px; /* Add 30 pixels of padding on the top for the container */
   padding-left: 30px; /* Add 30 pixels of padding on the left for the container */
   padding-right: 30px; /* Add 30 pixels of padding on the right for the container */
+  background-color: #000; 
   background: url(Images/bckrng5.png);
   background-repeat: no-repeat; 
   background-size: cover;
@@ -42,6 +44,7 @@ body {
 
 /* Apply styles to the top heading (VAJRADI VISION) */
 h1 {
+  z-index: 5;
   font-size: 4rem;
   font-family: 'Times New Roman', serif;
   background: #fff;
@@ -54,12 +57,14 @@ h1 {
 
 /* Apply styles to the bottom boxes container */
 .bottom-boxes {
+  z-index: 5;
   display: flex;
   justify-content: space-between;
   width: 100%; /* Make sure the boxes stretch to fill the width */
 }
 
 .Screenbottom-boxes{
+  z-index: 5;
   display: flex; 
   justify-content: space-between;
   width: 100%; /* Make sure the boxes stretch to fill the width */
@@ -147,6 +152,3 @@ h1 {
   max-width: 65%; 
   height: auto;
 }
-
-
-

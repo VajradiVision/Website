@@ -18,14 +18,16 @@ align-items: center;
 padding-top: 20px; /* Add 30 pixels of padding on the top for the container */
 padding-left: 30px; /* Add 30 pixels of padding on the left for the container */
 padding-right: 30px; /* Add 30 pixels of padding on the right for the container */
-background: url(Images/bckrng1.png);
+/*background: url(Images/bckrng1.png);
 background-repeat: no-repeat; 
 background-size: cover;
 background-position: center;
-background-attachment: fixed;
+background-attachment: fixed;*/
+background: #000;
 }
 
 h1 {
+z-index: 5;
 font-size: 4rem;
 font-family: 'Times New Roman', serif;
 background: #fff;
@@ -37,6 +39,7 @@ margin-bottom: 20px; /* Default space between the top heading and bottom boxes *
 }
 
 .mainbox{
+  z-index: 5;
     display: flex;
   justify-content: space-between;
   width: 100%; /* Make sure the boxes stretch to fill the width */
@@ -55,6 +58,7 @@ margin-bottom: 20px; /* Default space between the top heading and bottom boxes *
 }
 
 .mainbox iframe{
+  z-index: 5;
     display: block;
     width: 70vw;
     height: 80vh;

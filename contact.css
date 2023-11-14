@@ -24,6 +24,7 @@ body {
     background: #000;
     padding-bottom: 34vh;
     }
+
 form{
     z-index: 5;
     background: #fff; 
@@ -34,6 +35,7 @@ form{
     max-width: 600px;
     border-radius: 10px;
 }
+
 form h3{
     margin-top: 20px;
     z-index: 5;
